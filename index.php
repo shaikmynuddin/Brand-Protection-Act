@@ -1,0 +1,430 @@
+<?php include './partials/header.php'; ?>
+
+
+
+
+  <!-- Section 1: Hero -->
+  <section class="px-6 md:px-16 pt-20 my-20 flex flex-col md:flex-row items-center justify-between gap-12">
+    <div class="max-w-xl">
+      <h1 class="text-5xl font-bold leading-tight text-white mb-6">
+        Time is money.<br />Save both.
+      </h1>
+      <p class="text-white/70 text-lg mb-6">
+        Easy-to-use corporate cards, bill payments, accounting, and a whole lot more. All in one place.
+      </p>
+      <div class="flex items-center gap-3 mb-6">
+        <div class="bg-white/10 px-3 py-1 rounded-full flex items-center gap-2 text-sm text-white">
+          <i class="fas fa-star text-yellow-400"></i> 4.8 stars <span class="text-white/60">2,000+ reviews</span>
+        </div>
+        <a href="#" class="text-ramp-lime text-sm group hover:underline">
+          Explore product <span
+            class="inline-block group-hover:translate-x-2 group-hover:opacity-0 transition-all duration-300">→</span>
+        </a>
+
+
+      </div>
+      <form class="flex flex-col sm:flex-row gap-3">
+        <input type="email" placeholder="What's your work email?" class="flex-1 px-4 py-3 rounded-md text-black text-sm"
+          required />
+        <button type="submit" class="bg-ramp-lime hover:bg-lime-300 px-5 py-3 rounded-md text-sm font-bold text-black">
+          Get started for free
+        </button>
+      </form>
+    </div>
+    <div class="relative w-full md:w-1/2 border-none outline-none shadow-none">
+      <img src="./assets/img/heroimg.png" alt="Ramp dashboard" class="rounded-xl shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Section 2: Brand Logos -->
+  <div class="text-center bg-transparent">
+    <h2 class="text-xl md:text-2xl font-semibold mb-6 text-white">
+      30,000+ finance teams have saved millions of hours with Ramp.
+    </h2>
+    <div class="relative w-full overflow-hidden py-4">
+      <div class="flex animate-scroll-x whitespace-nowrap">
+        <!-- Original logos with icons -->
+        <div class="inline-flex items-center gap-12 px-6">
+          <div class="flex items-center gap-2">
+            <i class="fas fa-door-open text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Opendoor</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-building text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">ZOLACO</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-graduation-cap text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">KUMON</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-chrome text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Webflow</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-quora text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Quora</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-stripe text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Stripe</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-city text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">CBRE</span>
+          </div>
+        </div>
+        <!-- Duplicate logos for seamless loop -->
+        <div class="inline-flex items-center gap-12 px-6">
+          <div class="flex items-center gap-2">
+            <i class="fas fa-door-open text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Opendoor</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-building text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">ZOLACO</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-graduation-cap text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">KUMON</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-chrome text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Webflow</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-quora text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Quora</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-stripe text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Stripe</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-city text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">CBRE</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fab fa-quora text-2xl text-white/80"></i>
+            <span class="text-white font-medium text-xl">Quora</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </div>
+
+
+
+  <!-- Ramp Product Suite Section -->
+  <section class="bg-white py-20 px-6 md:px-16">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-sm font-semibold text-gray-500 text-center mb-2">RAMP PRODUCT SUITE</h2>
+      <h3 class="text-4xl font-bold text-black text-center mb-4">Get to know Ramp</h3>
+      <p class="text-gray-600 text-lg text-center mb-12">
+        Replace multiple broken tools with Ramp, the only platform designed to make your finance team faster—and
+        happier.
+      </p>
+
+      <!-- Grid Layout -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Reusable Item -->
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-sun text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Ramp Intelligence</h4>
+            <p class="text-gray-700 text-sm">Put Ramp AI to work for you.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-camera text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Accounts Payable</h4>
+            <p class="text-gray-700 text-sm">Process bills in seconds.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-credit-card text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Corporate Cards</h4>
+            <p class="text-gray-700 text-sm">Control spend before it happens.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-shopping-bag text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Procurement</h4>
+            <p class="text-gray-700 text-sm">Run intake-to-pay without delay.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-clock text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Expense Management</h4>
+            <p class="text-gray-700 text-sm">Expenses that submit themselves.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-calculator text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Accounting Automation</h4>
+            <p class="text-gray-700 text-sm">Accelerate your monthly close.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-route text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Travel</h4>
+            <p class="text-gray-700 text-sm">Travel that’s always in policy.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <i class="fas fa-chart-line text-xl text-black"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-black text-sm">Ramp Treasury</h4>
+            <p class="text-gray-700 text-sm">Business accounts that earn more.</p>
+          </div>
+          <div class="ml-auto hide-sm text-black text-sm">→</div>
+        </div>
+
+      </div>
+    </div>
+    <!-- section 3 -->
+    <section class="bg-white py-20 px-6 md:px-16">
+      <div class="max-w-7xl mx-auto text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4 text-black">
+          Focus on the real work and<br>let Ramp simplify your spend
+        </h2>
+        <p class="text-gray-600 text-lg">
+          Cards, expenses, and bill pay in a single<br>
+          platform that saves you time and money.
+        </p>
+      </div>
+
+      <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+        <!-- Text Left -->
+        <div class="lg:w-1/2 text-center lg:text-left">
+          <h3 class="text-xl font-semibold text-black mb-2">A single platform for your startup</h3>
+          <p class="text-gray-700 mb-4">
+            Everything your startup needs in a single platform—cards, expenses, bill pay, and more,
+            including specialized
+            <a href="#" class="text-black-600 underline">accounting software for startups</a>.
+            Ramp provides the spend management tools that will scale with you as you grow.
+          </p>
+
+          <!-- Link that hides on hover of the arrow -->
+          <div class="inline-flex items-center group cursor-pointer">
+            <a href="#" class="text-black group-hover:invisible transition-all duration-200">
+              Platform overview
+            </a>
+            <span class="ml-2 text-black group-hover:invisible">→</span>
+          </div>
+        </div>
+
+        <!-- Image Right -->
+        <div class="lg:w-1/2">
+          <div class="rounded-xl p-0">
+            <img src="./assets/img/heroimg.png" alt="Ramp platform preview" class="w-full rounded-xl">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section -->
+    <!-- Section -->
+    <section class="bg-white py-20 px-6 md:px-16">
+      <!-- Title -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-black mb-4">Meet our soldier of finance</h2>
+        <p class="text-gray-600 text-lg">
+          We provide all the advantage that can simplify all your financial and banking support without any further
+          issues
+        </p>
+      </div>
+
+      <!-- Two Column Team -->
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <!-- Harsh Patel Card - Modified structure -->
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+          <img src="./assets/img/t1.jpg" alt="Harsh Patel" class="w-42 h-64 object-cover rounded-xl">
+          <div>
+            <h3 class="text-lg font-semibold text-black">Harsh Patel</h3>
+            <p class="text-indigo-600 text-sm mb-2">Co-Founder & CEO</p>
+            <p class="text-gray-600 text-sm mb-4">
+              I am the co founder of pagedone and we've pushed our limit so far to make it successful.
+            </p>
+            <div class="flex justify-center md:justify-start space-x-3 text-xl">
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alexa Kimberly Card - Modified structure -->
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
+          <img src="./assets/img/t2.jpg" alt="Alexa Kimberly" class="w-42 h-64 object-cover rounded-xl">
+          <div>
+            <h3 class="text-lg font-semibold text-black">Alexa Kimberly</h3>
+            <p class="text-gray-500 text-sm mb-2">Lead Designer</p>
+            <p class="text-gray-600 text-sm mb-4">
+              I've been lead designer for pagedone since the beginning of it and enjoyed every bit.
+            </p>
+            <div class="flex justify-center md:justify-start space-x-3 text-xl">
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="bg-gray-100 text-black rounded-full p-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 5: FAQ -->
+    <section class="py-20 px-6 md:px-16 bg-white">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-black">FAQ</h2>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- FAQ Item -->
+          <details class="border border-gray-200 rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-black flex justify-between items-center">
+              <span>How can Ramp's corporate cards benefit my startup?</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <p class="mt-3 text-gray-600">
+              Our corporate cards help startups control spending with real-time visibility,
+              automated expense tracking, and built-in compliance features.
+            </p>
+          </details>
+
+          <!-- FAQ Item -->
+          <details class="border border-gray-200 rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-black flex justify-between items-center">
+              <span>How will Ramp help with my startup's expense management?</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <p class="mt-3 text-gray-600">
+              Ramp automates expense tracking, receipt collection, and categorization, saving your team dozens of hours
+              each month.
+            </p>
+          </details>
+
+          <!-- FAQ Item -->
+          <details class="border border-gray-200 rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-black flex justify-between items-center">
+              <span>How do I apply for a corporate card from Ramp for my startup?</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <p class="mt-3 text-gray-600">
+              The application process is completely online and takes just minutes. Visit our website and click "Get
+              Started" to begin.
+            </p>
+          </details>
+
+          <!-- FAQ Item -->
+          <details class="border border-gray-200 rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-black flex justify-between items-center">
+              <span>How is Ramp's corporate card different from a traditional credit card?</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <p class="mt-3 text-gray-600">
+              Unlike traditional cards, Ramp provides real-time spend visibility, automated expense management, and
+              built-in controls to prevent overspending.
+            </p>
+          </details>
+        </div>
+
+        <div><!-- FAQ Item -->
+          <details class="border border-gray-200 rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-black flex justify-between items-center">
+              <span>What are the spending limits?</span>
+              <svg class="w-5 h-5 transform transition-transform duration-200" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <p class="mt-3 text-gray-600">
+              Spending limits are customized based on your company's financial profile and can be adjusted as your needs
+              change.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA Section -->
+    <section class="py-20 bg-white text-center px-6 md:px-16">
+      <h2 class="text-black text-2xl md:text-3xl font-semibold mb-6">Time is money. Save both.</h2>
+      <div class="max-w-xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4">
+        <input type="email" placeholder="What’s your work email?"
+          class="w-full md:flex-1 px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring focus:ring-yellow-300" />
+        <button class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-md hover:bg-yellow-500">
+          Get started for free
+        </button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <?php include './partials/footer.php'; ?>
+    
+    <?php
+    // Any future PHP dynamic content can be inserted here
+    ?>
+
+    <!-- Your scripts go here -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
