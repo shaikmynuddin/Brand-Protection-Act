@@ -1,4 +1,11 @@
 // ✅ Declare toggleMenu in global scope first
+function toggleMute() {
+    const video = document.getElementById("promoVideo");
+    const icon = document.getElementById("soundIcon");
+
+    video.muted = !video.muted;
+    icon.className = video.muted ? "fas fa-volume-mute" : "fas fa-volume-up";
+  }
 function toggleMenu() {
   const nav = document.getElementById('navLinks');
   const hamburger = document.getElementById('hamburger').querySelector('i');
@@ -14,6 +21,14 @@ function toggleMenu() {
   nav.classList.toggle('pb-4');
   nav.classList.toggle('gap-4');
   nav.classList.toggle('z-40');
+  if (nav.classList.contains('hidden')) {
+    hamburger.classList.remove('fa-times');
+    hamburger.classList.add('fa-ellipsis-v'); // fallback to Font Awesome vertical ellipsis
+  } else {
+    hamburger.classList.remove('fa-ellipsis-v');
+    hamburger.classList.add('fa-times');
+  }
+
 
   // ❌ Remove this to keep navbar transparent
   // nav.classList.toggle('bg-ramp-dark');
@@ -49,6 +64,8 @@ window.addEventListener("scroll", function () {
   const demo = navbar.querySelector(".demo-btn");
   const triggerPoint = 100;
 
+  
+
   // Check if we're over a dark section (footer)
   const footer = document.querySelector('.footer');
   const footerRect = footer.getBoundingClientRect();
@@ -62,7 +79,8 @@ window.addEventListener("scroll", function () {
   }
 
   if (window.scrollY > triggerPoint) {
-    navbar.classList.remove("text-white");
+    
+    navbar.classList.remove("text-green-800", "text-red-800");
     navbar.classList.add("text-black");
 
     links.forEach((link) => {
@@ -77,7 +95,7 @@ window.addEventListener("scroll", function () {
     demo.classList.add("bg-black", "hover:bg-gray-800", "text-white");
   } else {
     navbar.classList.remove("text-black");
-    navbar.classList.add("text-white");
+    navbar.classList.add("text-green-800");
 
     links.forEach((link) => {
       link.classList.remove("hover:bg-black", "hover:text-white");

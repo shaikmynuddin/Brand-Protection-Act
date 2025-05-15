@@ -3,14 +3,48 @@
   --premium-white: #f8f9fa; /* Premium white color */
   --premium-white-80: rgba(248, 249, 250, 0.8); /* 80% opacity */
   --premium-white-60: rgba(248, 249, 250, 0.6); /* 60% opacity */
+  
 }
 /* Base body styles */
 body {
   font-family: Arial, sans-serif;
   color: var(--premium-white);
-  background-color: #0f172a; /* Optional: dark background base */
+  background: whitesmoke;
+  overflow-x: hidden;
   
 }
+/* hero bg */
+.hero-section {
+  background-color: #576ca0;
+}
+  .full-width-black {
+    background-color: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+  /* Center content max width */
+  .content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Black text on white background */
+  .text-black {
+    color: #000;
+  }
+.bg-blacks{
+  background-color: rgb(56, 94, 94);
+  color: #0f0f0f;
+}
+
 /* Smooth horizontal scroll animation */
 @keyframes scroll-x {
   0% { transform: translateX(0); }
@@ -89,6 +123,14 @@ body {
   color: #9ca3af;
   margin-top: 32px;
 }
+@keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .animate-scroll {
+      animation: scroll 30s linear infinite;
+    }
 /* navbar */
 @media (max-width: 767px) {
   #navLinks {
@@ -193,6 +235,7 @@ body {
     text-align: center;
   }
 }
+
 /* Team section responsive styles */
 @media (max-width: 767px) {
   .team-member-card {
