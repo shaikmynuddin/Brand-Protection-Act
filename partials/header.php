@@ -26,7 +26,7 @@
 
       <!-- Logo -->
       <div class="flex items-center gap-1 font-bold text-xl">
-      <img src="../assets/img/BPA Logos.avif" alt="Brand" class="h-12 mx-1">
+      <img src="BPA Logos.avif" alt="Brand" class="h-12 mx-1">
 
 
         Brand Protection Act
